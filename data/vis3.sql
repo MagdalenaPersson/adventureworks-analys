@@ -6,6 +6,6 @@ SELECT
 FROM Sales.SalesOrderHeader
 WHERE OrderDate >= '2023-01-01'
 AND OrderDate < '2025-01-01'
-GROUP BY FORMAT(OrderDate, 'yyyy-MM')
-ORDER BY YearMonth;
+GROUP BY FORMAT(OrderDate, 'yyyy-MM') 
+ORDER BY YearMonth ASC;
 
