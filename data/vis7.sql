@@ -3,7 +3,6 @@ SELECT * FROM Sales.SalesOrderHeader
 SELECT * FROM Sales.Customer
 SELECT * FROM Sales.Store
 
-
 SELECT
     st.Name AS Region,
     CASE
